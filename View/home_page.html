@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kabupaten Magelang</title>
+    <link rel="icon" href="../Assets/Images/bkppd_logo.png" type="image/x-icon" sizes="10x50">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <section id="navbar">
+        <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://bkppd.magelangkab.go.id/">
+                    <div class="row">
+                        <div class="col">
+                            <img src="../Assets/Images/bkppd_logo.png" alt="Logo" width="40" height="48"
+                                class="d-inline-block align-text-top">
+                        </div>
+                        <div class="col">
+                            <h5>BKPPD</h5>
+                            <p style="font-size: 12px;">PEMKAB MAGELANG</p>
+                        </div>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">BERANDA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://bkppd.magelangkab.go.id/diskusi">INTERAKTIF</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://bkppd.magelangkab.go.id/download">DOWNLOAD</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                PROFILE
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="https://bkppd.magelangkab.go.id/diskusi">Dasar
+                                        Hukum</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://sipgan.magelangkab.go.id/sipgan/statistik/index.php?stat=BADAN">Pegawai
+                                        BKPPD</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://drive.google.com/drive/folders/1t4ewleDU6GbqKcMo6akYRqr5V8eN4GJz">Profil
+                                        Kepala BKPPD dan eselon BKPPD</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://sipgan.magelangkab.go.id/sipgan/statistik/index.php?stat=PENDIDIKAN">Statistik
+                                        pegawai pemkab</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://drive.google.com/drive/folders/1_fY8v_lCHmAj2fiaCakh5cgWpnB0Evds">Struktur
+                                        Organisasi</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://bkppd.magelangkab.go.id/home/detail/tugas-dan-fungsi-bkppd/7">Tugas
+                                        dan Fungsi</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://bkppd.magelangkab.go.id/home/detail/visi-dan-misi/8">Visi Misi</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                BERITA
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="https://bkppd.magelangkab.go.id/home/category/291">Artikel</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://bkppd.magelangkab.go.id/home/category/292">Berita Pengumuman</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://bkppd.magelangkab.go.id/home/category/271">Berita Terkait Tugas
+                                        dan Fungsi</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://bkppd.magelangkab.go.id/home/category/290">Berita Utama</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                LAYANAN
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Diklat Penjenjangan dan Sertifikasi</a></li>
+                                <li><a class="dropdown-item" href="#">Diklat Teknis dan Fungsional</a></li>
+                                <li><a class="dropdown-item" href="#">Informasi Kepegawaian</a></li>
+                                <li><a class="dropdown-item" href="#">Jabatan dan Penilaian Kinerja</a></li>
+                                <li><a class="dropdown-item" href="#">Kesejahteraan dan Pemberhentian</a></li>
+                                <li><a class="dropdown-item" href="#">Pembinaan</a></li>
+                                <li><a class="dropdown-item" href="#">Pengadaan Pegawai</a></li>
+                                <li><a class="dropdown-item" href="#">Pengembangan JF dan Pangkat</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                INFORMASI PUBLIK
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="https://drive.google.com/drive/folders/1DPv1_1-P6PAzLVJRrcGMxC7AcQnyccQw">Dokumen
+                                        PELAPORAN PD</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://drive.google.com/drive/folders/1u-ZBj7VwwgyGwPTp7Em4yGLzI5q7w3t3">Dokumen
+                                        Perencanaan PD</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://drive.google.com/drive/folders/1Yjx9YUJZ6mtzX1-jOms05G5UDZ4UUs4r">LAporan
+                                        Keuangan Daerah</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://bkppd.magelangkab.go.id/download/subfolder/123">LHKASN</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://bkppd.magelangkab.go.id/download/subfolder/122">LHKPN</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://bkppd.magelangkab.go.id/home/detail/profil-singkat-pimpinan---pejabat-struktural/309">Profil
+                                        Singkat Pimpinan</a></li>
+                                <li><a class="dropdown-item" href="#">Program Kegiatan yang Sedang Dilaksanakan</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                REGULASI
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                MENU USER
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="https://sso.magelangkab.go.id/">Login Web</a></li>
+                                <li><a class="dropdown-item" href="https://webmail.magelangkab.go.id/">Email</a></li>
+                                <li><a class="dropdown-item" href="https://bkppd.magelangkab.go.id/pejabat">Pejabat</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Cari" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">cari</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Navbar -->
+    <section id="navbar">
+        <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://bkppd.magelangkab.go.id/">
+                    <div class="row">
+                        <div class="col">
+                            <img src="../Assets/Images/bkppd_logo.png" alt="Logo" width="40" height="48"
+                                class="d-inline-block align-text-top">
+                        </div>
+                        <div class="col">
+                            <h5>BKPPD</h5>
+                            <p style="font-size: 12px;">PEMKAB MAGELANG</p>
+                        </div>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">BERANDA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://bkppd.magelangkab.go.id/diskusi">INTERAKTIF</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://bkppd.magelangkab.go.id/download">DOWNLOAD</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                PROFILE
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="https://bkppd.magelangkab.go.id/diskusi">Dasar
+                                        Hukum</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://sipgan.magelangkab.go.id/sipgan/statistik/index.php?stat=BADAN">Pegawai
+                                        BKPPD</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://drive.google.com/drive/folders/1t4ewleDU6GbqKcMo6akYRqr5V8eN4GJz">Profil
+                                        Kepala BKPPD dan eselon BKPPD</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://sipgan.magelangkab.go.id/sipgan/statistik/index.php?stat=PENDIDIKAN">Statistik
+                                        pegawai pemkab</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://drive.google.com/drive/folders/1_fY8v_lCHmAj2fiaCakh5cgWpnB0Evds">Struktur
+                                        Organisasi</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://bkppd.magelangkab.go.id/home/detail/tugas-dan-fungsi-bkppd/7">Tugas
+                                        dan Fungsi</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://bkppd.magelangkab.go.id/home/detail/visi-dan-misi/8">Visi Misi</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                BERITA
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="https://bkppd.magelangkab.go.id/home/category/291">Artikel</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://bkppd.magelangkab.go.id/home/category/292">Berita Pengumuman</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://bkppd.magelangkab.go.id/home/category/271">Berita Terkait Tugas
+                                        dan Fungsi</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://bkppd.magelangkab.go.id/home/category/290">Berita Utama</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                LAYANAN
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Diklat Penjenjangan dan Sertifikasi</a></li>
+                                <li><a class="dropdown-item" href="#">Diklat Teknis dan Fungsional</a></li>
+                                <li><a class="dropdown-item" href="#">Informasi Kepegawaian</a></li>
+                                <li><a class="dropdown-item" href="#">Jabatan dan Penilaian Kinerja</a></li>
+                                <li><a class="dropdown-item" href="#">Kesejahteraan dan Pemberhentian</a></li>
+                                <li><a class="dropdown-item" href="#">Pembinaan</a></li>
+                                <li><a class="dropdown-item" href="#">Pengadaan Pegawai</a></li>
+                                <li><a class="dropdown-item" href="#">Pengembangan JF dan Pangkat</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                INFORMASI PUBLIK
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="https://drive.google.com/drive/folders/1DPv1_1-P6PAzLVJRrcGMxC7AcQnyccQw">Dokumen
+                                        PELAPORAN PD</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://drive.google.com/drive/folders/1u-ZBj7VwwgyGwPTp7Em4yGLzI5q7w3t3">Dokumen
+                                        Perencanaan PD</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://drive.google.com/drive/folders/1Yjx9YUJZ6mtzX1-jOms05G5UDZ4UUs4r">Laporan
+                                        Keuangan Daerah</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://bkppd.magelangkab.go.id/download/subfolder/123">LHKASN</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://bkppd.magelangkab.go.id/download/subfolder/122">LHKPN</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://bkppd.magelangkab.go.id/home/detail/profil-singkat-pimpinan---pejabat-struktural/309">Profil
+                                        Singkat Pimpinan</a></li>
+                                <li><a class="dropdown-item" href="#">Program Kegiatan yang Sedang Dilaksanakan</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                REGULASI
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                MENU USER
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="https://sso.magelangkab.go.id/">Login Web</a></li>
+                                <li><a class="dropdown-item" href="https://webmail.magelangkab.go.id/">Email</a></li>
+                                <li><a class="dropdown-item" href="https://bkppd.magelangkab.go.id/pejabat">Pejabat</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Cari" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">cari</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Content -->
+    <section id="heroCarousel">
+        <div id="carouselExampleCaptions" class="carousel slide ">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item c-item active">
+                    <img src="../Assets/Images/hero1.jpg" class="c-img d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>"Mboten korupsi, mboten ngapusi"</h3>
+                    </div>
+                </div>
+                <div class="carousel-item c-item">
+                    <img src="../Assets/Images/hero2.jpg" class="c-img d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Second slide label</h3>
+                    </div>
+                </div>
+                <div class="carousel-item c-item ">
+                    <img src="../Assets/Images/hero3.jpg" class="c-img d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Kompleks Pemkab Magelang</h3>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    
+    <section id="egoverment">
+        <div class="row text-center head-egov">
+            <p>E-Goverment</p>
+        </div>
+        <div class="row justify-content-center container-egov">
+            <div class="row overflow-scroll justify-content-center row-cols-1 row-cols-md-3 g-2" style="height: 300px;">
+                <div class="col">
+                    <div class="card shadow mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="../Assets/Images/sipgan.png" class="img-fluid rounded-start cd-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">SIPGAN</h5>
+                                    <p class="card-text">Layanan informasi kepegawaian di Pemerintah Kabupaten Magelang.
+                                    </p>
+                                    <a class="btn btn-light shadow text-success fw-bold" href="#" role="button">Lihat Aplikasi</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="../Assets/Images/sipgan.png" class="img-fluid rounded-start cd-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">SIPGAN</h5>
+                                    <p class="card-text">Layanan informasi kepegawaian di Pemerintah Kabupaten Magelang.
+                                    </p>
+                                    <a class="btn btn-light shadow text-success fw-bold" href="#" role="button">Lihat Aplikasi</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="../Assets/Images/sipgan.png" class="img-fluid rounded-start cd-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">SIPGAN</h5>
+                                    <p class="card-text">Layanan informasi kepegawaian di Pemerintah Kabupaten Magelang.
+                                    </p>
+                                    <a class="btn btn-light shadow text-success fw-bold" href="#" role="button">Lihat Aplikasi</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="../Assets/Images/sisulka.png" class="img-fluid rounded-start cd-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Si SulKa</h5>
+                                    <p class="card-text">Usul Kenaikan Pangkat Pemerintah Kabupaten Magelang.</p>
+                                    <a class="btn btn-light shadow text-success fw-bold" href="#" role="button">Lihat Aplikasi</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="../Assets/Images/ossbkppd.png" class="img-fluid rounded-start cd-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">OSS BKPPD</h5>
+                                    <p class="card-text">One Stop Services (OSS) BKPPD Magelangkab : Upload SKP PPK.</p>
+                                    <a class="btn btn-light shadow text-success fw-bold" href="#" role="button">Lihat Aplikasi</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Informasi -->
+    <section id="informasi" class="shadow">
+        
+    </section>
+
+    <!-- Content -->
+    <section id="content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium non, voluptatum aliquam
+            mollitia ut aperiam eius, voluptates debitis aspernatur repudiandae odio neque animi molestiae explicabo
+            voluptatibus in inventore illo?</p>
+    </section>
+    <!-- Footer -->
+    <section id="footer">
+
+    </section>
+
+
+
+
+
+
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
