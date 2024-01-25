@@ -31,6 +31,10 @@ body{
 
 #heroCarousel{
     padding-top: 80px;
+    
+}
+.carousel{
+    border-radius: 20px;
 }
 
 #carouselExampleCaptions {
@@ -108,6 +112,10 @@ body{
 .container-berita{
     /* background-color: yellow; */
     margin: 0px 10px 0px 10px; 
+}
+
+#footer{
+    height: auto;
 }
 
 /* body{
