@@ -1,12 +1,8 @@
 body{
     font-family: sans-serif;
 }
-/* section {
-    height: 100%;
-    width: 100%;
-    display: inline-block;
-} */
 
+/* navbar */
 .navbar{
     padding: 0% 6% 0% 6%;
     font-family: sans-serif;
@@ -19,7 +15,28 @@ body{
     margin: 0% 5% 0% 0%;
     padding-bottom: 0px;
 }
+/* end of navbar */
 
+
+
+
+
+/* carousel */
+
+#heroCarousel{
+    padding-top: 80px;
+    
+}
+#carouselExampleCaptions {
+    max-width: 80%; /* Set your desired maximum width */
+    margin: auto; /* Center the carousel on the page */
+}
+.carousel{
+    border-radius: 20px;
+}
+.carousel-inner{
+    border-radius: 20px;
+}
 .c-item{
     max-height: 600px;
 }
@@ -29,30 +46,20 @@ body{
     object-fit: cover;
 }
 
-#heroCarousel{
-    padding-top: 80px;
-    
-}
-.carousel{
-    border-radius: 20px;
-}
 
-#carouselExampleCaptions {
-    max-width: 80%; /* Set your desired maximum width */
-    margin: auto; /* Center the carousel on the page */
-}
+/* end of carousel */
 
+
+
+
+
+/* section e-goverment */
 #egoverment{
     margin-top: 40px;
     height: 800px;
     background-color: #077739;
     border-radius: 80px 80px 0px 0px;
 }
-
-.carousel-inner{
-    border-radius: 20px;
-}
-
 .head-egov{
     padding-top: 20px;
     color: white;
@@ -74,11 +81,17 @@ body{
     margin: auto;
 }
 
+/* end of section e-goverment */
+
+
+
+
+
+/* section card  */
 .cd-img{
     height: 100%;
     object-fit: cover;
 }
-
 .card{
     background-color: #01A149;
     color: white;
@@ -86,38 +99,66 @@ body{
     font-family: sans-serif;
 }
 
+/* end of section card  */
+
+
+
+
+
+/* section informasi */
+
 #informasi{
-    max-width: 90%; /* Set your desired maximum width */
+    max-width: 90%; 
     margin: auto; 
-    height: auto;
+    display: flex;
     background-color: white;
     margin-top: -300px !important;
     border-radius: 20px 20px 20px 20px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
 .container-info{
-    /* background-color: green; */
     margin: 0px 20px 20px 20px; 
-    height: 800px;
-}
-.berita{
-    /* background-color: aqua; */
-}
-.galeri{
-    /* background-color: aquamarine; */
+    display: flex;
 }
 
+
+
+.head-berita h2{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: bold; 
+    font-size: 36px;
+}
 .container-berita{
-    /* background-color: yellow; */
     margin: 0px 10px 0px 10px; 
 }
+.berita-card-container{
+    height: 750px; 
+    padding-top: 20px;
+}
+
+
+.head-galeri h2{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: bold; 
+    font-size: 36px;
+}
+.container-galeri{
+    margin: 0px 10px 0px 10px; 
+}
+.galeri-card-container{
+    height: 750px; 
+    padding-top: 20px;
+}
+/* section informasi */
+
+
+
+
+
 
 #footer{
     height: auto;
 }
-
-/* body{
-    height: 1000px;
-} */
