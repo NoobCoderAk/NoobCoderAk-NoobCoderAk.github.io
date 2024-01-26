@@ -4,7 +4,7 @@ body{
 
 /* navbar */
 .navbar{
-    padding: 0% 6% 0% 6%;
+    padding: 0px 100px 0px 100px;
     font-family: sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -12,9 +12,15 @@ body{
 }
 
 .navbar-brand{
+    width: 200px;
     margin: 0% 5% 0% 0%;
-    padding-bottom: 0px;
+    padding-bottom: 20px;
 }
+.navbar-brand h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
 /* end of navbar */
 
 
@@ -115,7 +121,7 @@ body{
     margin-top: -300px !important;
     border-radius: 20px 20px 20px 20px;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 .container-info{
     margin: 0px 20px 20px 20px; 
@@ -169,7 +175,7 @@ body{
     background-color: white;
     border-radius: 20px 20px 20px 20px;
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 .container-informasi-2{
     margin: 0px 20px 20px 20px; 
@@ -191,7 +197,6 @@ body{
     padding-top: 20px;
 }
 .link-pengumuman a{
-    margin-top: 2px;
     font-family: sans-serif;
     font-weight: bold; 
     font-size: 14px;
@@ -217,7 +222,6 @@ body{
     padding-top: 20px;
 }
 .link-artikel a{
-    margin-top: 10px;
     font-family: sans-serif;
     font-weight: bold; 
     font-size: 14px;
