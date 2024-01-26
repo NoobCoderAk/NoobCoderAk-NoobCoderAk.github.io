@@ -108,7 +108,7 @@ body{
 /* section informasi */
 
 #informasi{
-    max-width: 90%; 
+    max-width: 80%; 
     margin: auto; 
     display: flex;
     background-color: white;
@@ -134,6 +134,7 @@ body{
     margin: 0px 10px 0px 10px; 
 }
 .berita-card-container{
+    border-radius: 20px;
     height: 750px; 
     padding-top: 20px;
 }
@@ -149,12 +150,80 @@ body{
     margin: 0px 10px 0px 10px; 
 }
 .galeri-card-container{
+    border-radius: 20px;
     height: 750px; 
     padding-top: 20px;
 }
-/* section informasi */
+/* end of section informasi */
 
 
+
+
+
+/* section informasi-2 */
+#informasi-2{
+    margin-top: 50px !important;
+    max-width: 80%; 
+    margin: auto; 
+    display: flex;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container-informasi-2{
+    margin: 0px 20px 20px 20px; 
+    display: flex;
+}
+.head-pengumuman h2{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: bold; 
+    font-size: 36px;
+}
+.container-pengumuman{
+    border-radius: 20px;
+    margin: 0px 10px 0px 10px; 
+}
+.pengumuman-card-container{
+    border-radius: 20px;
+    height: 400px; 
+    padding-top: 20px;
+}
+.link-pengumuman a{
+    margin-top: 2px;
+    font-family: sans-serif;
+    font-weight: bold; 
+    font-size: 14px;
+}
+
+
+
+
+
+.head-artikel h2{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: bold; 
+    font-size: 36px;
+}
+.container-artikel{
+    border-radius: 20px;
+    margin: 0px 10px 0px 10px; 
+}
+.artikel-card-container{
+    border-radius: 20px;
+    height: 400px; 
+    padding-top: 20px;
+}
+.link-artikel a{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: bold; 
+    font-size: 14px;
+}
+
+/* end section pengumuman */
 
 
 
