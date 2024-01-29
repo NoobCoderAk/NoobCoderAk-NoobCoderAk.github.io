@@ -143,13 +143,21 @@ body{
 
 
 .head-berita h2{
-    margin-top: 10px;
+    border-radius: 20px;
+    width: 200px;
+    padding: 8px 0px 8px 0px;
+    background-color: #077739;
+    margin:auto;
     font-family: sans-serif;
     font-weight: bold; 
-    font-size: 36px;
+    color: white;
+    font-size: 24px;
 }
 .container-berita{
-    margin: 0px 10px 0px 10px; 
+    margin: 20px 10px 0px 10px; 
+}
+.berita{
+    padding-top: 20px;
 }
 .berita-card-container{
     border-radius: 20px;
@@ -159,13 +167,21 @@ body{
 
 
 .head-galeri h2{
-    margin-top: 10px;
+    border-radius: 20px;
+    width: 200px;
+    padding: 8px 0px 8px 0px;
+    background-color: #077739;
+    margin:auto;
     font-family: sans-serif;
     font-weight: bold; 
-    font-size: 36px;
+    color: white;
+    font-size: 24px;
+}
+.galeri{
+    padding-top: 20px;
 }
 .container-galeri{
-    margin: 0px 10px 0px 10px; 
+    margin: 20px 10px 0px 10px; 
 }
 .galeri-card-container{
     border-radius: 20px;
@@ -194,18 +210,26 @@ body{
     display: flex;
 }
 .head-pengumuman h2{
-    margin-top: 10px;
+    border-radius: 20px;
+    width: 200px;
+    padding: 8px 0px 8px 0px;
+    background-color: #077739;
+    margin:auto;
     font-family: sans-serif;
     font-weight: bold; 
-    font-size: 36px;
+    color: white;
+    font-size: 24px;
+}
+.pengumuman{
+    padding-top: 20px;
 }
 .container-pengumuman{
     border-radius: 20px;
-    margin: 0px 10px 0px 10px; 
+    margin: 20px 10px 0px 10px; 
 }
 .pengumuman-card-container{
     border-radius: 20px;
-    height: 400px; 
+    height: 100%; 
     padding-top: 20px;
 }
 .link-pengumuman a{
@@ -219,18 +243,26 @@ body{
 
 
 .head-artikel h2{
-    margin-top: 10px;
+    border-radius: 20px;
+    width: 200px;
+    padding: 8px 0px 8px 0px;
+    background-color: #077739;
+    margin:auto;
     font-family: sans-serif;
     font-weight: bold; 
-    font-size: 36px;
+    color: white;
+    font-size: 24px;
 }
 .container-artikel{
     border-radius: 20px;
-    margin: 0px 10px 0px 10px; 
+    margin: 20px 10px 0px 10px; 
+}
+.artikel{
+    padding-top: 20px;
 }
 .artikel-card-container{
     border-radius: 20px;
-    height: 400px; 
+    height: 100%; 
     padding-top: 20px;
 }
 .link-artikel a{
@@ -238,11 +270,166 @@ body{
     font-weight: bold; 
     font-size: 14px;
 }
-.link-pengumuman{
-    padding-bottom: 10px;
+/* end section informasi-2 */
+
+
+/* section informasi-3 */
+#informasi-3{
+    margin-top: 40px !important;
+    max-width: 80%; 
+    margin: auto; 
+    display: flex;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container-informasi-3{
+    margin: 0px 20px 20px 20px; 
+    display: flex;
+}
+.head-agenda h2{
+    border-radius: 20px;
+    width: 200px;
+    padding: 8px 0px 8px 0px;
+    background-color: #077739;
+    margin:auto;
+    font-family: sans-serif;
+    font-weight: bold; 
+    color: white;
+    font-size: 24px;
+}
+.agenda{
+    padding-top: 20px;
+}
+.container-agenda{
+    border-radius: 20px;
+    margin: 20px 10px 0px 10px; 
+}
+.agenda-card-container{
+    border-radius: 20px;
+    height: 100%; 
+    padding-top: 20px;
+}
+.link-agenda a{
+    font-family: sans-serif;
+    font-weight: bold; 
+    font-size: 14px;
 }
 
-/* end section pengumuman */
+
+
+
+
+.head-jadwal h2{
+    border-radius: 20px;
+    width: 200px;
+    padding: 8px 0px 8px 0px;
+    background-color: #077739;
+    margin:auto;
+    font-family: sans-serif;
+    font-weight: bold; 
+    color: white;
+    font-size: 24px;
+}
+.container-jadwal{
+    border-radius: 20px;
+    margin: 20px 10px 0px 10px; 
+}
+.jadwal{
+    padding-top: 20px;
+}
+.jadwal-card-container{
+    border-radius: 20px;
+    height: 100%; 
+    padding-top: 20px;
+}
+.link-jadwal a{
+    font-family: sans-serif;
+    font-weight: bold; 
+    font-size: 14px;
+}
+
+/* end section informasi-4 */
+
+
+
+
+
+
+
+/* section informasi-4 */
+#informasi-4{
+    margin-top: 40px !important;
+    max-width: 80%; 
+    margin: auto; 
+    display: flex;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container-informasi-4{
+    margin: auto; 
+    display: flex;
+}
+.head-map h2{
+    border-radius: 20px;
+    width: 200px;
+    padding: 8px 0px 8px 0px;
+    background-color: #077739;
+    margin:auto;
+    font-family: sans-serif;
+    font-weight: bold; 
+    color: white;
+    font-size: 24px;
+}
+.map{
+    padding-top: 20px;
+}
+.container-map{
+    border-radius: 20px;
+    max-width: 500px;
+    height: 500px;
+    margin: 20px 10px 0px 10px; 
+}
+iframe{
+    padding: 5px 0px 10px 0px;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.head-statistik h2{
+    border-radius: 20px;
+    width: 200px;
+    padding: 8px 0px 8px 0px;
+    background-color: #077739;
+    margin:auto;
+    font-family: sans-serif;
+    font-weight: bold; 
+    color: white;
+    font-size: 24px;
+}
+.container-statistik{
+    border-radius: 20px;
+    max-width: 500px;
+    height: 500px;
+    margin: 20px 10px 0px 10px; 
+}
+.statistik{
+    padding-top: 20px;
+}
+.statistik-card-container{
+    border-radius: 20px;
+    height: 100%; 
+    padding-top: 20px;
+}
+/* end section informasi-4 */
 
 
 
