@@ -8,16 +8,20 @@ body{
     font-family: sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .navbar-brand{
     width: 200px;
-    margin: 0% 2% 0% 0%;
+    /* margin: 0% 2% 0% 0%; */
     padding-bottom: 10px;
 }
 .navbar-nav{
-    margin: 0% 0% 0% 6%;
+    margin: auto;
+}
+
+.nav-item a {
+    color:#077739 !important;
 }
 .navbar-brand h6{
     font-family: Arial, Helvetica, sans-serif;
@@ -237,6 +241,16 @@ body{
     font-weight: bold; 
     font-size: 14px;
 }
+.link-pengumuman a:link{
+    text-decoration:none;
+}
+.link-pengumuman a:hover{
+    color: yellow !important;
+}
+.link-pengumuman a:visited{
+    color: green !important;
+}
+
 
 
 
@@ -269,6 +283,16 @@ body{
     font-family: sans-serif;
     font-weight: bold; 
     font-size: 14px;
+}
+
+.link-artikel a:link{
+    text-decoration:none;
+}
+.link-artikel a:hover{
+    color: yellow !important;
+}
+.link-artikel a:visited{
+    color: green !important;
 }
 /* end section informasi-2 */
 
@@ -316,6 +340,15 @@ body{
     font-weight: bold; 
     font-size: 14px;
 }
+.link-agenda a:link{
+    text-decoration:none;
+}
+.link-agenda a:hover{
+    color: yellow !important;
+}
+.link-agenda a:visited{
+    color: green !important;
+}
 
 
 
@@ -349,8 +382,17 @@ body{
     font-weight: bold; 
     font-size: 14px;
 }
+.link-jadwal a:link{
+    text-decoration:none;
+}
+.link-jadwal a:hover{
+    color: yellow !important;
+}
+.link-jadwal a:visited{
+    color: green !important;
+}
 
-/* end section informasi-4 */
+/* end section informasi-3 */
 
 
 
@@ -457,3 +499,32 @@ iframe{
     color: white;
     background-color: #077739;
 }
+
+td a:link{
+    color: white;
+}
+td a:hover{
+    color: yellow;
+}
+td a:visited{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
