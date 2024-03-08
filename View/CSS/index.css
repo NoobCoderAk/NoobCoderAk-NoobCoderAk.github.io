@@ -3,6 +3,9 @@ body{
 }
 
 /* navbar */
+#navbar{
+    margin-bottom: 100px;
+}
 .navbar{
     padding: 0% 10% 0% 10%;
     font-family: sans-serif;
@@ -36,7 +39,7 @@ body{
 /* carousel */
 
 #heroCarousel{
-    padding-top: 100px;
+    /* padding-top: 100px; */
     
 }
 #carouselExampleCaptions {
@@ -52,8 +55,10 @@ body{
 .c-item{
     max-height: 600px;
 }
+
 .c-img{
     height: 100%;
+    max-height: 600px;
     border-radius: 20px;
     object-fit: cover;
 }
@@ -104,7 +109,7 @@ body{
     height: 100%;
     object-fit: cover;
 }
-.card{
+.card-egov{
     background-color: #01A149;
     color: white;
     margin: 0.1rem;
@@ -115,8 +120,8 @@ body{
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
-    line-clamp: 2;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
     -webkit-box-orient: vertical;
 }
 
@@ -165,9 +170,18 @@ body{
 }
 .berita-card-container{
     border-radius: 20px;
-    height: 750px; 
+    max-height: 750px; 
     padding-top: 20px;
 }
+.berita-img{
+    max-height: 200px !important;
+    object-fit: cover;
+}
+
+
+
+
+
 
 
 .head-galeri h2{
@@ -189,9 +203,35 @@ body{
 }
 .galeri-card-container{
     border-radius: 20px;
-    height: 750px; 
+    max-height: 750px; 
     padding-top: 20px;
+    
 }
+
+.card{
+    background-color:#01A149;
+}
+
+.card-galeri{
+    height: 240px;
+}
+
+
+.text-link a{
+    color: white;
+    text-decoration: none;
+}
+
+/* .galer-test{
+    height: 500px;
+   margin-bottom: 100px !important;
+} */
+
+.glr-img{
+    max-height: 200px !important;
+    object-fit: cover;
+}
+
 /* end of section informasi */
 
 
@@ -250,6 +290,10 @@ body{
 .link-pengumuman a:visited{
     color: green !important;
 }
+.pengumuman-img{
+    max-height: 200px !important;
+    object-fit: cover;
+}
 
 
 
@@ -293,6 +337,10 @@ body{
 }
 .link-artikel a:visited{
     color: green !important;
+}
+.artikel-img{
+    max-height: 200px !important;
+    object-fit: cover;
 }
 /* end section informasi-2 */
 
